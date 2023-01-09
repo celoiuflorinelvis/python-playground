@@ -155,3 +155,27 @@ method('type', "aaa", 123,
 )
 
 
+def method_parameters(pos1, pos2, /, pos_and_kw, *, kw1, kw2):
+    print(f"pos1 = {pos1}")
+    print(f"pos2 = {pos2}")
+    print(f"pos_and_kw = {pos_and_kw}")
+    print(f"kw1 = {kw1}")
+    print(f"kw2 = {kw2}")
+
+print()
+method_parameters(1, 2, "pos and kw", kw1 = "par1", kw2 = "kw2")
+#method_parameters(1, pos1 = 2, "pos and kw", kw1 = "par1", kw2 = "kw2")
+method_parameters(1, 2, pos_and_kw = "pos and kw", kw1 = "par1", kw2 = "kw2")
+#method_parameters(1, 2, pos_and_kw = "pos and kw",  "par1", kw2 = "kw2")
+
+def build_incrementer(n):
+    return lambda x: x + n
+
+incr10 = build_incrementer(10)
+print(f"x + 10 = {incr10(3)}")
+
+pairs = [(3, "three"), (1, "one"), (2, "two")]
+pairs.sort(key = lambda pair: pair[0])
+print(f"pairs = {pairs}")
+
+
