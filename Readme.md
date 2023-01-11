@@ -10,4 +10,6 @@ round(_, 3)
 # Package management:
 ```
 python -m pip list
+pip install flask
 ```
+
