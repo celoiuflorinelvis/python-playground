@@ -18,3 +18,6 @@ RUN apt-get update \
     #
     # Install Python 3 and pip
     && apt-get autoremove -
+
+COPY id_rsa /root/.ssh/
+COPY id_rsa.pub /root/.ssh/
