@@ -11,10 +11,20 @@ round(_, 3)
 ```
 python -m pip list
 pip install flask
+python -m pip install requests==2.6.0
+python -m pip install --upgrade requests
+python -m pip show requests
+python -m pip freeze > requirements.txt
+python -m pip install -r requirements.txt
 ```
 
 # Unittest
 ```
 python -m unittest -h
+```
+
+# Virtual Environment
+```
+python3 -m venv tutorial-env
 ```
 
