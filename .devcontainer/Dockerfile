@@ -23,4 +23,4 @@ COPY id_rsa /root/.ssh/
 COPY id_rsa.pub /root/.ssh/
 COPY requirements.txt /workspaces/python/
 
-RUN python -m pip install -r /workspaces/python/requirements.txt
+# RUN python -m pip install -r /workspaces/python/requirements.txt
