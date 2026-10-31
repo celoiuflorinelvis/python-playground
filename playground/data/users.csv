@@ -1,0 +1,13 @@
+id,name,email,phone,address,city,country,created_at
+1,Alice Johnson,alice.johnson@email.com,+1-555-0101,123 Maple St,New York,US,2024-01-15
+2,Bob Smith,bob.smith@email.com,+1-555-0102,456 Oak Ave,Los Angeles,US,2024-02-03
+3,Carol White,carol.white@email.com,+44-20-7946-0201,78 Baker St,London,GB,2024-02-18
+4,David Brown,david.brown@email.com,+49-30-12345678,Unter den Linden 12,Berlin,DE,2024-03-07
+5,Eva Martinez,eva.martinez@email.com,+34-91-1234567,Calle Mayor 45,Madrid,ES,2024-03-22
+6,Frank Lee,frank.lee@email.com,+1-555-0106,789 Pine Rd,Seattle,US,2024-04-10
+7,Grace Kim,grace.kim@email.com,+82-2-1234-5678,Gangnam-daero 100,Seoul,KR,2024-04-25
+8,Henry Müller,henry.mueller@email.com,+49-89-98765432,Maximilianstr 5,Munich,DE,2024-05-12
+9,Irene Rossi,irene.rossi@email.com,+39-06-12345678,Via Roma 33,Rome,IT,2024-06-01
+10,James Tan,james.tan@email.com,+65-6123-4567,Orchard Rd 88,Singapore,SG,2024-06-19
+11,Karen Patel,karen.patel@email.com,+1-555-0111,321 Elm St,Chicago,US,2024-07-08
+12,Liam O'Brien,liam.obrien@email.com,+353-1-234-5678,Grafton St 14,Dublin,IE,2024-08-14

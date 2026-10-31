@@ -1,0 +1,13 @@
+id,user_id,order_date,status,shipping_address,city,country,total_amount
+1,1,2024-03-10,delivered,123 Maple St,New York,US,2499.00
+2,3,2024-03-25,delivered,78 Baker St,London,GB,349.99
+3,2,2024-04-05,delivered,456 Oak Ave,Los Angeles,US,789.98
+4,5,2024-04-18,delivered,Calle Mayor 45,Madrid,ES,1299.99
+5,6,2024-05-02,shipped,789 Pine Rd,Seattle,US,179.99
+6,4,2024-05-14,delivered,Unter den Linden 12,Berlin,DE,2149.00
+7,7,2024-06-01,processing,Gangnam-daero 100,Seoul,KR,649.98
+8,9,2024-06-20,delivered,Via Roma 33,Rome,IT,1049.97
+9,10,2024-07-03,delivered,Orchard Rd 88,Singapore,SG,449.99
+10,11,2024-07-22,shipped,321 Elm St,Chicago,US,3099.00
+11,8,2024-08-05,processing,Maximilianstr 5,Munich,DE,329.99
+12,12,2024-08-18,pending,Grafton St 14,Dublin,IE,119.99

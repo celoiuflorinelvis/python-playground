@@ -1,4 +1,4 @@
 pandas >= 3.1.0
 matplotlib
-pydantic
+pydantic[email]
 fastapi

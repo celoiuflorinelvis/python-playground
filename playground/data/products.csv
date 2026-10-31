@@ -1,0 +1,13 @@
+id,name,category,brand,sku,description,stock_quantity
+1,MacBook Pro 16" M3,Laptops,Apple,APL-MBP16-M3,Apple Silicon M3 Pro chip 16-inch laptop with Liquid Retina XDR display,45
+2,Dell XPS 15 9530,Laptops,Dell,DLL-XPS15-9530,15.6" OLED laptop Intel Core i7 32GB RAM 1TB SSD,30
+3,Samsung 65" QLED 4K TV,Televisions,Samsung,SAM-TV65-QLED,65-inch QLED 4K Smart TV with Neo Quantum Processor,18
+4,Sony WH-1000XM5,Headphones,Sony,SNY-WH1000XM5,Industry-leading noise cancelling wireless headphones,120
+5,ASUS ROG Strix RTX 4080,Graphics Cards,ASUS,ASU-RTX4080-ROG,NVIDIA GeForce RTX 4080 16GB GDDR6X gaming GPU,12
+6,Logitech MX Master 3S,Peripherals,Logitech,LOG-MXM3S,Advanced wireless mouse with 8K DPI sensor and ergonomic design,200
+7,Samsung 990 Pro 2TB SSD,Storage,Samsung,SAM-990PRO-2TB,PCIe 4.0 NVMe M.2 internal SSD 7450MB/s read,85
+8,Corsair Vengeance 32GB DDR5,Memory,Corsair,CRS-VNG32-DDR5,2x16GB DDR5 5600MHz CL36 desktop RAM kit,60
+9,Raspberry Pi 5 8GB,Single-Board Computers,Raspberry Pi,RPI-5-8GB,ARM Cortex-A76 quad-core SBC with 8GB LPDDR4X RAM,150
+10,Anker 140W USB-C Charger,Chargers & Cables,Anker,ANK-140W-USBC,GaN III compact 140W 3-port fast charger,175
+11,LG UltraWide 34" Monitor,Monitors,LG,LG-UW34-21-9,34-inch 3440x1440 IPS curved ultrawide monitor 160Hz,40
+12,TP-Link Archer AX90,Networking,TP-Link,TPL-AX90-TRI,AX6600 tri-band Wi-Fi 6 gigabit router,55
