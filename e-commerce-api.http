@@ -1,0 +1,96 @@
+
+# Valid key
+GET http://localhost:8000/api/v1/users
+Content-Type: application/json
+X-API-Key: your_api_key_here
+
+###
+
+# Invalid key → 403
+GET http://localhost:8000/api/v1/users
+Content-Type: application/json
+X-API-Key: wrong_key
+
+###
+
+# Missing key → 403
+GET http://localhost:8000/api/v1/users
+Content-Type: application/json
+
+###
+
+# Get user by ID — valid
+GET http://localhost:8000/api/v1/users/1
+Content-Type: application/json
+X-API-Key: your_api_key_here
+
+###
+
+# Get user by ID — invalid type → 422
+GET http://localhost:8000/api/v1/users/1xxxx
+Content-Type: application/json
+X-API-Key: your_api_key_here
+
+###
+
+# Get user by ID — not found → 404
+GET http://localhost:8000/api/v1/users/1111111
+Content-Type: application/json
+X-API-Key: your_api_key_here
+
+###
+
+# Search users — valid
+GET http://localhost:8000/api/v1/users/search?query=country in ['US']
+Content-Type: application/json
+X-API-Key: your_api_key_here
+
+###
+
+# Search users — not found → 404
+GET http://localhost:8000/api/v1/users/search?query=country in ['US_XX']
+Content-Type: application/json
+X-API-Key: your_api_key_here
+
+###
+
+# Delete user by ID — valid
+DELETE http://localhost:8000/api/v1/users/1
+Content-Type: application/json
+X-API-Key: your_api_key_here
+
+###
+
+# Valid key
+POST http://localhost:8000/api/v1/users
+Content-Type: application/json
+X-API-Key: your_api_key_here
+
+{
+    "name": "John Doe",
+    "email": "john.doe@example.com",
+    "address": "123 Main St",
+    "city": "New York",
+    "country": "US",
+    "phone": "+11234567890"
+}
+
+###
+
+# Valid key
+PUT http://localhost:8000/api/v1/users/12
+Content-Type: application/json
+X-API-Key: your_api_key_here
+
+{
+    "name": "John Doe",
+    "email": "john.doe@example.com",
+    "address": "123 Main St",
+    "city": "New York",
+    "country": "US",
+    "phone": "+11234567890"
+}
+
+###
+
+
